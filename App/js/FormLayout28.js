@@ -106,7 +106,7 @@ xui.Class('App.FormLayout28', 'xui.Module',{
                             "value" : "Gender"
                         },
                         "A4" : {
-                            "value" : "Desc"
+                            "value" : "Descriotion"
                         },
                         "A5" : {
                             "value" : "Memo",
@@ -205,7 +205,7 @@ xui.Class('App.FormLayout28', 'xui.Module',{
                 .setName("B2")
                 .setLeft("0em")
                 .setTop("0em")
-                .setWidth("19.580952380952382em")
+                .setWidth("19.123809523809523em")
                 .setHeight("2.4380952380952383em")
                 .setLabelPos("none"),
                 "B2"
@@ -217,7 +217,7 @@ xui.Class('App.FormLayout28', 'xui.Module',{
                 .setName("E2")
                 .setLeft("0em")
                 .setTop("0em")
-                .setWidth("13.40952380952381em")
+                .setWidth("13.257142857142858em")
                 .setHeight("2.4380952380952383em")
                 .setLabelPos("none")
                 .setType("date")
@@ -241,7 +241,7 @@ xui.Class('App.FormLayout28', 'xui.Module',{
                 ])
                 .setLeft("0em")
                 .setTop("0em")
-                .setWidth("19.580952380952382em")
+                .setWidth("19.123809523809523em")
                 .setHeight("2.361904761904762em")
                 .setLabelPos("none")
                 .setLabelHAlign("left")
@@ -255,7 +255,7 @@ xui.Class('App.FormLayout28', 'xui.Module',{
                 .setName("E3")
                 .setLeft("0em")
                 .setTop("0em")
-                .setWidth("13.40952380952381em")
+                .setWidth("13.257142857142858em")
                 .setHeight("2.361904761904762em")
                 .setLabelPos("none")
                 .setType("color"),
@@ -265,9 +265,9 @@ xui.Class('App.FormLayout28', 'xui.Module',{
             append(
                 xui.create("xui.UI.ComboInput")
                 .setHost(host,"xui_ui_comboinput295")
-                .setLeft("5.333333333333333em")
-                .setTop("26.666666666666668em")
-                .setWidth("18em")
+                .setLeft("-2.2857142857142856em")
+                .setTop("9.142857142857142em")
+                .setWidth("14.17142857142857em")
                 .setLabelSize("8em")
                 .setLabelCaption("Year Group")
                 .setType("listbox")
