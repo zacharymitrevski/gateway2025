@@ -242,8 +242,7 @@ xui.Class('App', 'xui.Module',{
                 .setTop("0em")
                 .setWidth("11.733333333333333em")
                 .setHeight("9.142857142857142em")
-                .setLabelSize("8em")
-                .setLabelCaption("Staff Code")
+                .setLabelPos("none")
                 .setType("password")
                 .setValue("2303"),
                 "D1"
@@ -270,6 +269,12 @@ xui.Class('App', 'xui.Module',{
                 .setHeight("2.5142857142857142em")
                 .setLabelSize("8em")
                 .setType("dropbutton")
+                .setItems([
+                    {
+                        "id" : "z.mitrevski",
+                        "caption" : "z.mitrevski"
+                    }
+                ])
             );
             
             append(
