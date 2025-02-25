@@ -79,7 +79,7 @@ xui.Class('App', 'xui.Module',{
                 .setWidth("9.066666666666666em")
                 .setCaption("Find Student ")
                 .setImageClass("xui-icon-search")
-                .onContextmenu([
+                .beforeHoverEffect([
                     {
                         "desc" : "Action 1",
                         "type" : "page",
@@ -89,14 +89,7 @@ xui.Class('App', 'xui.Module',{
                             }
                         ],
                         "method" : "open",
-                        "event" : 1
-                    },
-                    {
-                        "desc" : "Action 2",
-                        "type" : "page",
-                        "target" : "App.FormLayout28",
-                        "args" : [ ],
-                        "method" : "show"
+                        "event" : 2
                     }
                 ])
             );
