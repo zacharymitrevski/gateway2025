@@ -192,13 +192,13 @@ xui.Class('App.FormLayout28', 'xui.Module',{
             
             append(
                 xui.create("xui.UI.ComboInput")
-                .setHost(host,"xui_ui_comboinput295")
-                .setLeft("-2.2857142857142856em")
-                .setTop("9.142857142857142em")
-                .setWidth("14.17142857142857em")
+                .setHost(host,"xui_ui_comboinput469")
+                .setLeft("-3.8095238095238093em")
+                .setTop("9.904761904761905em")
+                .setWidth("14.933333333333334em")
                 .setLabelSize("8em")
-                .setLabelCaption("Year Group")
-                .setType("listbox")
+                .setLabelCaption("Year")
+                .setType("dropbutton")
                 .setItems([
                     {
                         "id" : "7",
@@ -225,7 +225,6 @@ xui.Class('App.FormLayout28', 'xui.Module',{
                         "caption" : "12"
                     }
                 ])
-                .setValue("d")
             );
             
             return children;
