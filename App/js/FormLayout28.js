@@ -133,7 +133,7 @@ xui.Class('App.FormLayout28', 'xui.Module',{
                 .setName("B2")
                 .setLeft("0em")
                 .setTop("0em")
-                .setWidth("16.99047619047619em")
+                .setWidth("17.295238095238094em")
                 .setHeight("2.4380952380952383em")
                 .setLabelPos("none"),
                 "B2"
@@ -145,7 +145,7 @@ xui.Class('App.FormLayout28', 'xui.Module',{
                 .setName("E2")
                 .setLeft("0em")
                 .setTop("0em")
-                .setWidth("12.266666666666667em")
+                .setWidth("12.41904761904762em")
                 .setHeight("2.4380952380952383em")
                 .setLabelPos("none")
                 .setType("date")
@@ -169,7 +169,7 @@ xui.Class('App.FormLayout28', 'xui.Module',{
                 ])
                 .setLeft("0em")
                 .setTop("0em")
-                .setWidth("16.99047619047619em")
+                .setWidth("17.295238095238094em")
                 .setHeight("2.361904761904762em")
                 .setLabelPos("none")
                 .setLabelHAlign("left")
@@ -183,7 +183,7 @@ xui.Class('App.FormLayout28', 'xui.Module',{
                 .setName("E3")
                 .setLeft("0em")
                 .setTop("0em")
-                .setWidth("12.266666666666667em")
+                .setWidth("12.41904761904762em")
                 .setHeight("2.361904761904762em")
                 .setLabelPos("none")
                 .setType("color"),
@@ -202,32 +202,27 @@ xui.Class('App.FormLayout28', 'xui.Module',{
                 .setItems([
                     {
                         "id" : "7",
-                        "caption" : "",
-                        "imageClass" : "xui-icon-number1"
+                        "caption" : ""
                     },
                     {
                         "id" : "8",
-                        "caption" : "",
-                        "imageClass" : "xui-icon-number2"
+                        "caption" : ""
                     },
                     {
                         "id" : "9",
-                        "caption" : "",
-                        "imageClass" : "xui-icon-number3"
+                        "caption" : "9"
                     },
                     {
                         "id" : "10",
-                        "caption" : "",
-                        "imageClass" : "xui-icon-number4",
-                        "disabled" : true
+                        "caption" : "10"
                     },
                     {
                         "id" : "11",
-                        "caption" : ""
+                        "caption" : "11"
                     },
                     {
                         "id" : "12",
-                        "caption" : ""
+                        "caption" : "12"
                     }
                 ])
                 .setValue("d")
