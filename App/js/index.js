@@ -90,6 +90,13 @@ xui.Class('App', 'xui.Module',{
                         ],
                         "method" : "open",
                         "event" : 1
+                    },
+                    {
+                        "desc" : "Action 2",
+                        "type" : "page",
+                        "target" : "App.FormLayout28",
+                        "args" : [ ],
+                        "method" : "show"
                     }
                 ])
             );
