@@ -74,8 +74,8 @@ xui.Class('App', 'xui.Module',{
             append(
                 xui.create("xui.UI.Button")
                 .setHost(host,"xui_ui_button22")
-                .setLeft("0.7619047619047619em")
-                .setTop("8.380952380952381em")
+                .setLeft("1.5238095238095237em")
+                .setTop("5.333333333333333em")
                 .setWidth("9.066666666666666em")
                 .setCaption("Find Student ")
                 .setImageClass("xui-icon-search")
@@ -92,6 +92,189 @@ xui.Class('App', 'xui.Module',{
                         "event" : 2
                     }
                 ])
+            );
+            
+            append(
+                xui.create("xui.UI.FormLayout")
+                .setHost(host,"xui_ui_formlayout9")
+                .setWidth("29.63809523809524em")
+                .setHeight("auto")
+                .setPosition("relative")
+                .setDisplay("inline-block")
+                .setSolidGridlines(false)
+                .setLayoutData({
+                    "rows" : 4,
+                    "cols" : 5,
+                    "merged" : [
+                        {
+                            "row" : 0,
+                            "col" : 1,
+                            "rowspan" : 1,
+                            "colspan" : 2,
+                            "removed" : false
+                        },
+                        {
+                            "row" : 1,
+                            "col" : 1,
+                            "rowspan" : 1,
+                            "colspan" : 2,
+                            "removed" : false
+                        },
+                        {
+                            "row" : 3,
+                            "col" : 1,
+                            "rowspan" : 1,
+                            "colspan" : 4,
+                            "removed" : false
+                        },
+                        {
+                            "row" : 2,
+                            "col" : 1,
+                            "rowspan" : 1,
+                            "colspan" : 2,
+                            "removed" : false
+                        },
+                        {
+                            "row" : 0,
+                            "col" : 3,
+                            "rowspan" : 3,
+                            "colspan" : 2,
+                            "removed" : false
+                        }
+                    ],
+                    "rowSetting" : {
+                        "1" : {
+                            "manualHeight" : 42
+                        },
+                        "2" : {
+                            "manualHeight" : 38
+                        },
+                        "3" : {
+                            "manualHeight" : 41
+                        },
+                        "4" : {
+                            "manualHeight" : 92
+                        }
+                    },
+                    "colSetting" : {
+                        "A" : {
+                            "manualWidth" : 67
+                        },
+                        "B" : {
+                            "manualWidth" : 73
+                        },
+                        "C" : {
+                            "manualWidth" : 94
+                        },
+                        "D" : {
+                            "manualWidth" : 62
+                        },
+                        "E" : {
+                            "manualWidth" : 52
+                        }
+                    },
+                    "cells" : {
+                        "A1" : {
+                            "value" : "My Profile"
+                        },
+                        "A2" : {
+                            "value" : "Clock in"
+                        },
+                        "A3" : {
+                            "value" : "Clock in time"
+                        },
+                        "A4" : {
+                            "value" : "Clock Out"
+                        },
+                        "C4" : {
+                            "value" : "https://webstudio.is/pricing"
+                        },
+                        "D4" : {
+                            "value" : "https://webstudio.is/pricing"
+                        },
+                        "E4" : {
+                            "value" : "https://webstudio.is/pricing"
+                        }
+                    }
+                })
+                .setLeft("30.17142857142857em")
+                .setTop("5.0285714285714285em")
+                .setCustomStyle({
+                    "KEY" : {
+                        "margin" : "4px 4px 4px 4px"
+                    }
+                })
+            );
+            
+            host.xui_ui_formlayout9.append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input18")
+                .setName("B1")
+                .setLeft("0em")
+                .setTop("0em")
+                .setWidth("12.647619047619047em")
+                .setHeight("3.123809523809524em")
+                .setLabelPos("none"),
+                "B1"
+            );
+            
+            host.xui_ui_formlayout9.append(
+                xui.create("xui.UI.RadioBox")
+                .setHost(host,"xui_ui_radiobox9")
+                .setName("B2")
+                .setItems([
+                    {
+                        "id" : "m",
+                        "caption" : "In"
+                    },
+                    {
+                        "id" : "f",
+                        "caption" : "Out"
+                    }
+                ])
+                .setLeft("0em")
+                .setTop("0em")
+                .setWidth("12.647619047619047em")
+                .setHeight("2.8190476190476192em")
+                .setLabelPos("none")
+                .setLabelHAlign("left")
+                .setValue("a"),
+                "B2"
+            );
+            
+            host.xui_ui_formlayout9.append(
+                xui.create("xui.UI.Image")
+                .setHost(host,"xui_ui_image15")
+                .setLeft("0em")
+                .setTop("0em")
+                .setWidth("11.733333333333333em")
+                .setHeight("9.142857142857142em")
+                .setSrc("{xui.ini.img_pic}"),
+                "D1"
+            );
+            
+            host.xui_ui_formlayout9.append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput24")
+                .setName("B3")
+                .setLeft("0em")
+                .setTop("0em")
+                .setWidth("12.647619047619047em")
+                .setHeight("3.0476190476190474em")
+                .setLabelPos("none")
+                .setType("time"),
+                "B3"
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput31")
+                .setLeft("32.76190476190476em")
+                .setTop("14.476190476190476em")
+                .setWidth("15.695238095238095em")
+                .setHeight("4.8em")
+                .setLabelSize("8em")
+                .setType("time")
             );
             
             append(
