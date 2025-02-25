@@ -85,11 +85,10 @@ xui.Class('App', 'xui.Module',{
                         "type" : "page",
                         "target" : "App.FormLayout28",
                         "args" : [
-                            "{page.popUp()}",
-                            "page"
+                            {
+                            }
                         ],
-                        "method" : "popUp",
-                        "redirection" : "page::",
+                        "method" : "open",
                         "event" : 1
                     }
                 ])
