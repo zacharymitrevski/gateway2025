@@ -79,6 +79,20 @@ xui.Class('App', 'xui.Module',{
                 .setWidth("9.066666666666666em")
                 .setCaption("Find Student ")
                 .setImageClass("xui-icon-search")
+                .onContextmenu([
+                    {
+                        "desc" : "Action 1",
+                        "type" : "page",
+                        "target" : "App.FormLayout28",
+                        "args" : [
+                            "{page.popUp()}",
+                            "page"
+                        ],
+                        "method" : "popUp",
+                        "redirection" : "page::",
+                        "event" : 1
+                    }
+                ])
             );
             
             append(
