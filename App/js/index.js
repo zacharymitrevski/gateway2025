@@ -222,17 +222,6 @@ xui.Class('App', 'xui.Module',{
             );
             
             host.xui_ui_formlayout9.append(
-                xui.create("xui.UI.Image")
-                .setHost(host,"xui_ui_image15")
-                .setLeft("0em")
-                .setTop("0em")
-                .setWidth("11.733333333333333em")
-                .setHeight("9.142857142857142em")
-                .setSrc("{xui.ini.img_pic}"),
-                "D1"
-            );
-            
-            host.xui_ui_formlayout9.append(
                 xui.create("xui.UI.ComboInput")
                 .setHost(host,"xui_ui_comboinput24")
                 .setName("B3")
@@ -245,13 +234,29 @@ xui.Class('App', 'xui.Module',{
                 "B3"
             );
             
+            host.xui_ui_formlayout9.append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input22")
+                .setName("D1")
+                .setLeft("0em")
+                .setTop("0em")
+                .setWidth("11.733333333333333em")
+                .setHeight("9.142857142857142em")
+                .setLabelSize("8em")
+                .setLabelCaption("Staff Code")
+                .setType("password")
+                .setValue("2303"),
+                "D1"
+            );
+            
             append(
                 xui.create("xui.UI.ComboInput")
                 .setHost(host,"xui_ui_comboinput31")
-                .setLeft("32.76190476190476em")
+                .setLeft("31.8em")
                 .setTop("14.476190476190476em")
-                .setWidth("15.695238095238095em")
+                .setWidth("16.457142857142856em")
                 .setHeight("4.8em")
+                .setBottom("10em")
                 .setLabelSize("8em")
                 .setType("time")
             );
@@ -262,15 +267,9 @@ xui.Class('App', 'xui.Module',{
                 .setLeft("29.714285714285715em")
                 .setTop("5.333333333333333em")
                 .setWidth("18em")
+                .setHeight("2.5142857142857142em")
                 .setLabelSize("8em")
                 .setType("dropbutton")
-                .setHeight("2.5142857142857142em")
-                .setItems([
-                    {
-                        "id" : "2303",
-                        "caption" : "z.mitrevski"
-                    }
-                ])
             );
             
             append(
