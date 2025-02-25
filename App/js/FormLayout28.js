@@ -12,7 +12,7 @@ xui.Class('App.FormLayout28', 'xui.Module',{
                 .setWidth("56.68571428571428em")
                 .setHeight("33.2952380952381em")
                 .setLayoutData({
-                    "rows" : 5,
+                    "rows" : 3,
                     "cols" : 6,
                     "merged" : [
                         {
@@ -44,20 +44,6 @@ xui.Class('App.FormLayout28', 'xui.Module',{
                             "removed" : false
                         },
                         {
-                            "row" : 3,
-                            "col" : 1,
-                            "rowspan" : 1,
-                            "colspan" : 5,
-                            "removed" : false
-                        },
-                        {
-                            "row" : 4,
-                            "col" : 1,
-                            "rowspan" : 1,
-                            "colspan" : 5,
-                            "removed" : false
-                        },
-                        {
                             "row" : 0,
                             "col" : 0,
                             "rowspan" : 1,
@@ -74,12 +60,6 @@ xui.Class('App.FormLayout28', 'xui.Module',{
                         },
                         "3" : {
                             "manualHeight" : 32
-                        },
-                        "4" : {
-                            "manualHeight" : 174
-                        },
-                        "5" : {
-                            "manualHeight" : 24
                         }
                     },
                     "colSetting" : {
@@ -105,24 +85,8 @@ xui.Class('App.FormLayout28', 'xui.Module',{
                         "A3" : {
                             "value" : "Gender"
                         },
-                        "A4" : {
-                            "value" : "Descriotion"
-                        },
-                        "A5" : {
-                            "value" : "Memo",
-                            "style" : {
-                                "backgroundColor" : "#FFE4B5"
-                            }
-                        },
-                        "B5" : {
-                            "value" : "This is a form layout demo!",
-                            "style" : {
-                                "textAlign" : "left",
-                                "verticalAlign" : "bottom",
-                                "fontStyle" : "italic",
-                                "color" : "#BC8F8F",
-                                "backgroundColor" : "#FFE4B5"
-                            }
+                        "D3" : {
+                            "value" : "Student Flag"
                         },
                         "B1" : {
                             "style" : {
@@ -158,42 +122,6 @@ xui.Class('App.FormLayout28', 'xui.Module',{
                                 "fontSize" : "20px",
                                 "fontFamily" : "arial black,avant garde"
                             }
-                        },
-                        "C5" : {
-                            "style" : {
-                                "textAlign" : "left",
-                                "verticalAlign" : "bottom",
-                                "fontStyle" : "italic",
-                                "color" : "#BC8F8F",
-                                "backgroundColor" : "#FFE4B5"
-                            }
-                        },
-                        "D5" : {
-                            "style" : {
-                                "textAlign" : "left",
-                                "verticalAlign" : "bottom",
-                                "fontStyle" : "italic",
-                                "color" : "#BC8F8F",
-                                "backgroundColor" : "#FFE4B5"
-                            }
-                        },
-                        "E5" : {
-                            "style" : {
-                                "textAlign" : "left",
-                                "verticalAlign" : "bottom",
-                                "fontStyle" : "italic",
-                                "color" : "#BC8F8F",
-                                "backgroundColor" : "#FFE4B5"
-                            }
-                        },
-                        "F5" : {
-                            "style" : {
-                                "textAlign" : "left",
-                                "verticalAlign" : "bottom",
-                                "fontStyle" : "italic",
-                                "color" : "#BC8F8F",
-                                "backgroundColor" : "#FFE4B5"
-                            }
                         }
                     }
                 })
@@ -205,7 +133,7 @@ xui.Class('App.FormLayout28', 'xui.Module',{
                 .setName("B2")
                 .setLeft("0em")
                 .setTop("0em")
-                .setWidth("19.123809523809523em")
+                .setWidth("16.99047619047619em")
                 .setHeight("2.4380952380952383em")
                 .setLabelPos("none"),
                 "B2"
@@ -217,7 +145,7 @@ xui.Class('App.FormLayout28', 'xui.Module',{
                 .setName("E2")
                 .setLeft("0em")
                 .setTop("0em")
-                .setWidth("13.257142857142858em")
+                .setWidth("12.266666666666667em")
                 .setHeight("2.4380952380952383em")
                 .setLabelPos("none")
                 .setType("date")
@@ -241,7 +169,7 @@ xui.Class('App.FormLayout28', 'xui.Module',{
                 ])
                 .setLeft("0em")
                 .setTop("0em")
-                .setWidth("19.123809523809523em")
+                .setWidth("16.99047619047619em")
                 .setHeight("2.361904761904762em")
                 .setLabelPos("none")
                 .setLabelHAlign("left")
@@ -255,7 +183,7 @@ xui.Class('App.FormLayout28', 'xui.Module',{
                 .setName("E3")
                 .setLeft("0em")
                 .setTop("0em")
-                .setWidth("13.257142857142858em")
+                .setWidth("12.266666666666667em")
                 .setHeight("2.361904761904762em")
                 .setLabelPos("none")
                 .setType("color"),
@@ -274,32 +202,32 @@ xui.Class('App.FormLayout28', 'xui.Module',{
                 .setItems([
                     {
                         "id" : "7",
-                        "caption" : "7",
+                        "caption" : "",
                         "imageClass" : "xui-icon-number1"
                     },
                     {
                         "id" : "8",
-                        "caption" : "8",
+                        "caption" : "",
                         "imageClass" : "xui-icon-number2"
                     },
                     {
                         "id" : "9",
-                        "caption" : "9",
+                        "caption" : "",
                         "imageClass" : "xui-icon-number3"
                     },
                     {
                         "id" : "10",
-                        "caption" : "10",
+                        "caption" : "",
                         "imageClass" : "xui-icon-number4",
                         "disabled" : true
                     },
                     {
                         "id" : "11",
-                        "caption" : "11"
+                        "caption" : ""
                     },
                     {
                         "id" : "12",
-                        "caption" : "12"
+                        "caption" : ""
                     }
                 ])
                 .setValue("d")
