@@ -97,6 +97,8 @@ xui.Class('App', 'xui.Module',{
             append(
                 xui.create("xui.UI.FormLayout")
                 .setHost(host,"xui_ui_formlayout9")
+                .setLeft("30.17142857142857em")
+                .setTop("5.0285714285714285em")
                 .setWidth("29.63809523809524em")
                 .setHeight("auto")
                 .setPosition("relative")
@@ -175,7 +177,7 @@ xui.Class('App', 'xui.Module',{
                     },
                     "cells" : {
                         "A1" : {
-                            "value" : "My Profile"
+                            "value" : "Staff"
                         },
                         "A2" : {
                             "value" : "Clock in"
@@ -185,37 +187,14 @@ xui.Class('App', 'xui.Module',{
                         },
                         "A4" : {
                             "value" : "Clock Out"
-                        },
-                        "C4" : {
-                            "value" : "https://webstudio.is/pricing"
-                        },
-                        "D4" : {
-                            "value" : "https://webstudio.is/pricing"
-                        },
-                        "E4" : {
-                            "value" : "https://webstudio.is/pricing"
                         }
                     }
                 })
-                .setLeft("30.17142857142857em")
-                .setTop("5.0285714285714285em")
                 .setCustomStyle({
                     "KEY" : {
                         "margin" : "4px 4px 4px 4px"
                     }
                 })
-            );
-            
-            host.xui_ui_formlayout9.append(
-                xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input18")
-                .setName("B1")
-                .setLeft("0em")
-                .setTop("0em")
-                .setWidth("12.647619047619047em")
-                .setHeight("3.123809523809524em")
-                .setLabelPos("none"),
-                "B1"
             );
             
             host.xui_ui_formlayout9.append(
@@ -275,6 +254,23 @@ xui.Class('App', 'xui.Module',{
                 .setHeight("4.8em")
                 .setLabelSize("8em")
                 .setType("time")
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput40")
+                .setLeft("29.714285714285715em")
+                .setTop("5.333333333333333em")
+                .setWidth("18em")
+                .setLabelSize("8em")
+                .setType("dropbutton")
+                .setHeight("2.5142857142857142em")
+                .setItems([
+                    {
+                        "id" : "2303",
+                        "caption" : "z.mitrevski"
+                    }
+                ])
             );
             
             append(
