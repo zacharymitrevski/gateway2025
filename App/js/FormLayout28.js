@@ -7,8 +7,8 @@ xui.Class('App.FormLayout28', 'xui.Module',{
             append(
                 xui.create("xui.UI.FormLayout")
                 .setHost(host,"xui_ui_formlayout1")
-                .setLeft("5.833333333333333em")
-                .setTop("1.6666666666666667em")
+                .setLeft("0em")
+                .setTop("0em")
                 .setWidth("56.68571428571428em")
                 .setHeight("33.2952380952381em")
                 .setLayoutData({
