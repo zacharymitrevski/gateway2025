@@ -9,193 +9,190 @@ xui.Class('App.FormLayout28', 'xui.Module',{
                 .setHost(host,"xui_ui_formlayout1")
                 .setLeft("5.833333333333333em")
                 .setTop("1.6666666666666667em")
-                .setWidth("56.666666666666664em")
-                .setHeight("33.333333333333336em")
+                .setWidth("56.68571428571428em")
+                .setHeight("33.2952380952381em")
                 .setLayoutData({
-                    "rows":5,
-                    "cols":6,
-                    "merged":[
+                    "rows" : 5,
+                    "cols" : 6,
+                    "merged" : [
                         {
-                            "row":1,
-                            "col":1,
-                            "rowspan":1,
-                            "colspan":2,
-                            "removed":false
+                            "row" : 1,
+                            "col" : 1,
+                            "rowspan" : 1,
+                            "colspan" : 2,
+                            "removed" : false
                         },
                         {
-                            "row":2,
-                            "col":1,
-                            "rowspan":1,
-                            "colspan":2,
-                            "removed":false
+                            "row" : 2,
+                            "col" : 1,
+                            "rowspan" : 1,
+                            "colspan" : 2,
+                            "removed" : false
                         },
                         {
-                            "row":1,
-                            "col":4,
-                            "rowspan":1,
-                            "colspan":2,
-                            "removed":false
+                            "row" : 1,
+                            "col" : 4,
+                            "rowspan" : 1,
+                            "colspan" : 2,
+                            "removed" : false
                         },
                         {
-                            "row":2,
-                            "col":4,
-                            "rowspan":1,
-                            "colspan":2,
-                            "removed":false
+                            "row" : 2,
+                            "col" : 4,
+                            "rowspan" : 1,
+                            "colspan" : 2,
+                            "removed" : false
                         },
                         {
-                            "row":3,
-                            "col":1,
-                            "rowspan":1,
-                            "colspan":5,
-                            "removed":false
+                            "row" : 3,
+                            "col" : 1,
+                            "rowspan" : 1,
+                            "colspan" : 5,
+                            "removed" : false
                         },
                         {
-                            "row":4,
-                            "col":1,
-                            "rowspan":1,
-                            "colspan":5,
-                            "removed":false
+                            "row" : 4,
+                            "col" : 1,
+                            "rowspan" : 1,
+                            "colspan" : 5,
+                            "removed" : false
                         },
                         {
-                            "row":0,
-                            "col":0,
-                            "rowspan":1,
-                            "colspan":6,
-                            "removed":false
+                            "row" : 0,
+                            "col" : 0,
+                            "rowspan" : 1,
+                            "colspan" : 6,
+                            "removed" : false
                         }
                     ],
-                    "rowSetting":{
-                        "1":{
-                            "manualHeight":50
+                    "rowSetting" : {
+                        "1" : {
+                            "manualHeight" : 50
                         },
-                        "2":{
-                            "manualHeight":33
+                        "2" : {
+                            "manualHeight" : 33
                         },
-                        "3":{
-                            "manualHeight":32
+                        "3" : {
+                            "manualHeight" : 32
                         },
-                        "4":{
-                            "manualHeight":174
+                        "4" : {
+                            "manualHeight" : 174
                         },
-                        "5":{
-                            "manualHeight":24
+                        "5" : {
+                            "manualHeight" : 24
                         }
                     },
-                    "colSetting":{
-                        "E":{
-                            "manualWidth":50
+                    "colSetting" : {
+                        "E" : {
+                            "manualWidth" : 50
                         }
                     },
-                    "cells":{
-                        "A1":{
-                            "value":"Staff Form",
-                            "style":{
-                                "textAlign":"center",
-                                "fontSize":"20px",
-                                "fontFamily":"arial black,avant garde"
+                    "cells" : {
+                        "A1" : {
+                            "value" : "Student Information",
+                            "style" : {
+                                "textAlign" : "center",
+                                "fontSize" : "20px",
+                                "fontFamily" : "arial black,avant garde"
                             }
                         },
-                        "A2":{
-                            "value":"Name"
+                        "A2" : {
+                            "value" : "Full Name"
                         },
-                        "D2":{
-                            "value":"Birthday"
+                        "D2" : {
+                            "value" : "DOB"
                         },
-                        "A3":{
-                            "value":"Gender"
+                        "A3" : {
+                            "value" : "Gender"
                         },
-                        "D3":{
-                            "value":"Style"
+                        "A4" : {
+                            "value" : "Desc"
                         },
-                        "A4":{
-                            "value":"Desc"
-                        },
-                        "A5":{
-                            "value":"Memo",
-                            "style":{
-                                "backgroundColor":"#FFE4B5"
+                        "A5" : {
+                            "value" : "Memo",
+                            "style" : {
+                                "backgroundColor" : "#FFE4B5"
                             }
                         },
-                        "B5":{
-                            "value":"This is a form layout demo!",
-                            "style":{
-                                "textAlign":"left",
-                                "verticalAlign":"bottom",
-                                "fontStyle":"italic",
-                                "color":"#BC8F8F",
-                                "backgroundColor":"#FFE4B5"
+                        "B5" : {
+                            "value" : "This is a form layout demo!",
+                            "style" : {
+                                "textAlign" : "left",
+                                "verticalAlign" : "bottom",
+                                "fontStyle" : "italic",
+                                "color" : "#BC8F8F",
+                                "backgroundColor" : "#FFE4B5"
                             }
                         },
-                        "B1":{
-                            "style":{
-                                "textAlign":"center",
-                                "fontSize":"20px",
-                                "fontFamily":"arial black,avant garde"
+                        "B1" : {
+                            "style" : {
+                                "textAlign" : "center",
+                                "fontSize" : "20px",
+                                "fontFamily" : "arial black,avant garde"
                             }
                         },
-                        "C1":{
-                            "style":{
-                                "textAlign":"center",
-                                "fontSize":"20px",
-                                "fontFamily":"arial black,avant garde"
+                        "C1" : {
+                            "style" : {
+                                "textAlign" : "center",
+                                "fontSize" : "20px",
+                                "fontFamily" : "arial black,avant garde"
                             }
                         },
-                        "D1":{
-                            "style":{
-                                "textAlign":"center",
-                                "fontSize":"20px",
-                                "fontFamily":"arial black,avant garde"
+                        "D1" : {
+                            "style" : {
+                                "textAlign" : "center",
+                                "fontSize" : "20px",
+                                "fontFamily" : "arial black,avant garde"
                             }
                         },
-                        "E1":{
-                            "style":{
-                                "textAlign":"center",
-                                "fontSize":"20px",
-                                "fontFamily":"arial black,avant garde"
+                        "E1" : {
+                            "style" : {
+                                "textAlign" : "center",
+                                "fontSize" : "20px",
+                                "fontFamily" : "arial black,avant garde"
                             }
                         },
-                        "F1":{
-                            "style":{
-                                "textAlign":"center",
-                                "fontSize":"20px",
-                                "fontFamily":"arial black,avant garde"
+                        "F1" : {
+                            "style" : {
+                                "textAlign" : "center",
+                                "fontSize" : "20px",
+                                "fontFamily" : "arial black,avant garde"
                             }
                         },
-                        "C5":{
-                            "style":{
-                                "textAlign":"left",
-                                "verticalAlign":"bottom",
-                                "fontStyle":"italic",
-                                "color":"#BC8F8F",
-                                "backgroundColor":"#FFE4B5"
+                        "C5" : {
+                            "style" : {
+                                "textAlign" : "left",
+                                "verticalAlign" : "bottom",
+                                "fontStyle" : "italic",
+                                "color" : "#BC8F8F",
+                                "backgroundColor" : "#FFE4B5"
                             }
                         },
-                        "D5":{
-                            "style":{
-                                "textAlign":"left",
-                                "verticalAlign":"bottom",
-                                "fontStyle":"italic",
-                                "color":"#BC8F8F",
-                                "backgroundColor":"#FFE4B5"
+                        "D5" : {
+                            "style" : {
+                                "textAlign" : "left",
+                                "verticalAlign" : "bottom",
+                                "fontStyle" : "italic",
+                                "color" : "#BC8F8F",
+                                "backgroundColor" : "#FFE4B5"
                             }
                         },
-                        "E5":{
-                            "style":{
-                                "textAlign":"left",
-                                "verticalAlign":"bottom",
-                                "fontStyle":"italic",
-                                "color":"#BC8F8F",
-                                "backgroundColor":"#FFE4B5"
+                        "E5" : {
+                            "style" : {
+                                "textAlign" : "left",
+                                "verticalAlign" : "bottom",
+                                "fontStyle" : "italic",
+                                "color" : "#BC8F8F",
+                                "backgroundColor" : "#FFE4B5"
                             }
                         },
-                        "F5":{
-                            "style":{
-                                "textAlign":"left",
-                                "verticalAlign":"bottom",
-                                "fontStyle":"italic",
-                                "color":"#BC8F8F",
-                                "backgroundColor":"#FFE4B5"
+                        "F5" : {
+                            "style" : {
+                                "textAlign" : "left",
+                                "verticalAlign" : "bottom",
+                                "fontStyle" : "italic",
+                                "color" : "#BC8F8F",
+                                "backgroundColor" : "#FFE4B5"
                             }
                         }
                     }
@@ -208,8 +205,8 @@ xui.Class('App.FormLayout28', 'xui.Module',{
                 .setName("B2")
                 .setLeft("0em")
                 .setTop("0em")
-                .setWidth("20.416666666666668em")
-                .setHeight("2.6666666666666665em")
+                .setWidth("19.580952380952382em")
+                .setHeight("2.4380952380952383em")
                 .setLabelPos("none"),
                 "B2"
             );
@@ -220,11 +217,11 @@ xui.Class('App.FormLayout28', 'xui.Module',{
                 .setName("E2")
                 .setLeft("0em")
                 .setTop("0em")
-                .setWidth("14.333333333333334em")
-                .setHeight("2.6666666666666665em")
+                .setWidth("13.40952380952381em")
+                .setHeight("2.4380952380952383em")
                 .setLabelPos("none")
                 .setType("date")
-                .setValue("106372800000"),
+                .setValue("106322400000"),
                 "E2"
             );
             
@@ -234,18 +231,18 @@ xui.Class('App.FormLayout28', 'xui.Module',{
                 .setName("B3")
                 .setItems([
                     {
-                        "id":"m",
-                        "caption":"Male"
+                        "id" : "m",
+                        "caption" : "Male"
                     },
                     {
-                        "id":"f",
-                        "caption":"Femail"
+                        "id" : "f",
+                        "caption" : "Female"
                     }
                 ])
                 .setLeft("0em")
                 .setTop("0em")
-                .setWidth("20.416666666666668em")
-                .setHeight("2.5833333333333335em")
+                .setWidth("19.580952380952382em")
+                .setHeight("2.361904761904762em")
                 .setLabelPos("none")
                 .setLabelHAlign("left")
                 .setValue("a"),
@@ -258,24 +255,54 @@ xui.Class('App.FormLayout28', 'xui.Module',{
                 .setName("E3")
                 .setLeft("0em")
                 .setTop("0em")
-                .setWidth("14.333333333333334em")
-                .setHeight("2.5833333333333335em")
+                .setWidth("13.40952380952381em")
+                .setHeight("2.361904761904762em")
                 .setLabelPos("none")
                 .setType("color"),
                 "E3"
             );
             
-            host.xui_ui_formlayout1.append(
-                xui.create("xui.UI.RichEditor")
-                .setHost(host,"xui_ui_richeditor2")
-                .setName("B4")
-                .setLeft("0em")
-                .setTop("0em")
-                .setWidth("46.083333333333336em")
-                .setHeight("14.416666666666666em")
-                .setLabelPos("none")
-                .setLabelHAlign("left"),
-                "B4"
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput295")
+                .setLeft("5.333333333333333em")
+                .setTop("26.666666666666668em")
+                .setWidth("18em")
+                .setLabelSize("8em")
+                .setLabelCaption("Year Group")
+                .setType("listbox")
+                .setItems([
+                    {
+                        "id" : "7",
+                        "caption" : "7",
+                        "imageClass" : "xui-icon-number1"
+                    },
+                    {
+                        "id" : "8",
+                        "caption" : "8",
+                        "imageClass" : "xui-icon-number2"
+                    },
+                    {
+                        "id" : "9",
+                        "caption" : "9",
+                        "imageClass" : "xui-icon-number3"
+                    },
+                    {
+                        "id" : "10",
+                        "caption" : "10",
+                        "imageClass" : "xui-icon-number4",
+                        "disabled" : true
+                    },
+                    {
+                        "id" : "11",
+                        "caption" : "11"
+                    },
+                    {
+                        "id" : "12",
+                        "caption" : "12"
+                    }
+                ])
+                .setValue("d")
             );
             
             return children;
