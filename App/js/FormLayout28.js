@@ -202,11 +202,11 @@ xui.Class('App.FormLayout28', 'xui.Module',{
                 .setItems([
                     {
                         "id" : "7",
-                        "caption" : ""
+                        "caption" : "7"
                     },
                     {
                         "id" : "8",
-                        "caption" : ""
+                        "caption" : "8"
                     },
                     {
                         "id" : "9",
